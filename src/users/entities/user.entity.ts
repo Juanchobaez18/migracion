@@ -14,4 +14,22 @@ export class User {
 
     @Column({ type: 'varchar', length: 255 })
     lastName;
+
+    @Column({ type: 'varchar', length: 255 })
+    docType;
+
+    @Column({ type: 'varchar', length: 255 })
+    docNumber;
+
+    @Column({ type: 'varchar', length: 55 })
+    miTest;
+
+    @Column({ type: 'varchar', length: 255 })
+    miTest2;
+
+    @Column({ type: 'varchar', length: 55 })
+    miTest3;
+
+    @Column({ type: 'varchar', length: 55 })
+    juan;
 }
