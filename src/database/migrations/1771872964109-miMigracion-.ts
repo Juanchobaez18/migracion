@@ -11,4 +11,6 @@ export class MiMigracion1771872964109 implements MigrationInterface {
         await queryRunner.query(`ALTER TABLE "user" DROP COLUMN "docNumber"`);
     }
 
+
+    
 }

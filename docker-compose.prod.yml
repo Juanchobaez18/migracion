@@ -19,7 +19,7 @@ services:
     environment:
       POSTGRES_DB: auth_prod_db
       POSTGRES_USER: prod_user
-      POSTGRES_PASSWORD: secure_password
+      POSTGRES_PASSWORD: 123456
     ports:
       - "5434:5432"
     volumes:
